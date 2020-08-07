@@ -36,6 +36,7 @@ body {
   color: rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
   margin: -0.3em 0 0.5em;
+  padding-top: 0.5em;
 }
 
 .all-tasks {
@@ -154,7 +155,6 @@ form {
 .todo-list {
   --spacer: 2rem;
   grid-area: active;
-  background: var(--clr-light);
   color: var(--clr-dark);
 }
 
@@ -177,6 +177,7 @@ form {
 
 .todo-body {
   padding: var(--spacer);
+  background: var(--clr-light);
   position: relative;
 }
 
