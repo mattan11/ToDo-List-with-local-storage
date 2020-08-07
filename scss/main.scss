@@ -97,13 +97,13 @@ form {
   font-size: inherit;
   outline: none;
   padding: 0.25em;
-
   transition: border-bottom 150ms ease-in;
   order: 2;
 }
 
 .new::placeholder {
   opacity: 0.4;
+  color: white;
 }
 
 .new:focus {
