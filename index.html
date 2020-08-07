@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <script defer src="./script.js"></script>
   </head>
 
   <body>
@@ -17,10 +18,7 @@
 
     <div class="all-tasks">
       <h2 class="task-list-title">My lists</h2>
-      <ul class="task-list">
-        <li class="list-name active-list">Youtube</li>
-        <li class="list-name">Work</li>
-        <li class="list-name">Grocery</li>
+      <ul class="task-list" data-lists>
       </ul>
 
       <form action="">
@@ -36,7 +34,7 @@
 
     <div class="todo-list">
       <div class="todo-header">
-        <h2 class="list-title">YouTube</h2>
+        <h2 class="list-title">Home</h2>
         <p class="task-count">3 tasks remaining</p>
       </div>
 
@@ -49,7 +47,7 @@
             />
             <label for="task-1">
               <span class="custom-checkbox"></span>
-              record todo list video
+              clean the kitchen
             </label>
           </div>
           <!-- /task-1 -->
